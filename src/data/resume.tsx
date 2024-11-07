@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Agustin Ivan Zanetta",
   initials: "AIZ",
-  url: "https://dillion.io",
+  url: "https://agustinzanetta.com",
   location: "La Plata, Buenos Aires",
   locationLink: "https://maps.app.goo.gl/errATmJFH96bDFc59",
   description:
