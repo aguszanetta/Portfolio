@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Agustin Ivan Zanetta",
   initials: "AIZ",
-  url: "https://dillion.io",
+  url: "https://agustinzanetta.com",
   location: "La Plata, Buenos Aires",
   locationLink: "https://maps.app.goo.gl/errATmJFH96bDFc59",
   description:
@@ -128,7 +128,11 @@ export const DATA = {
       start: "2021",
       end: "2021",
       description:
-        "Me permitio entender mas en detalle lo que eran las bases de datos"
+        "Este curso me permitió profundizar en los conceptos fundamentales de las bases de datos,\
+         proporcionándome una comprensión más detallada sobre su estructura, diseño y optimización. \
+         Aprendí a crear y gestionar bases de datos relacionales utilizando SQL, a establecer relaciones entre tablas, \
+         y a implementar consultas eficientes. Además, adquirí las habilidades necesarias para organizar y almacenar grandes \
+         volúmenes de datos de manera efectiva, lo que me permitió desarrollar soluciones más robustas y escalables para aplicaciones web."
     },
     {
       id: 3,
@@ -139,7 +143,10 @@ export const DATA = {
       start: "2021",
       end: "2021",
       description:
-        "Ademas del front, queria empezar a ahondar en lo que era el back y las bases de datos para armar un sistema web completo"
+        "Además de aprender sobre el desarrollo frontend, quise expandir mis habilidades hacia el desarrollo backend y la gestión de bases de datos. \
+        Esto me motivó a estudiar PHP 7 y MySQL, con el objetivo de comprender cómo crear aplicaciones web dinámicas y escalables. \
+        A través de este curso, aprendí a integrar bases de datos con el servidor, a gestionar la comunicación entre el frontend y el backend, \
+        y a construir sistemas web completos, funcionales y optimizados."
     },
     {
       id: 4,
@@ -150,7 +157,10 @@ export const DATA = {
       start: "2020",
       end: "2020",
       description:
-        "Me empezó a interesar el diseño y desarrollo web y queria profundizar mas en el tema"
+        "Mi interés por el diseño y desarrollo web surgió a medida que fui descubriendo el área de la programación y sus distintas ramas. \
+        Motivado por esa curiosidad, decidí profundizar mis conocimientos a través de un curso especializado, \
+        donde adquirí habilidades clave en diseño visual, usabilidad y desarrollo frontend, con el objetivo de crear sitios web funcionales, \
+        atractivos y accesibles."
     },
   ],
   projects: [
