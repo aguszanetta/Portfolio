@@ -1,4 +1,3 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -170,12 +169,12 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               ¡Conectemos! Si te interesa saber más sobre mi perfil, no dudes en escribirme a{" "}
-                <Link
-                  href={DATA.contact.social.email.url}
+                <a
+                  href={`mailto:${DATA.contact.social.email.url}`}
                   className="text-blue-500 hover:underline"
                 >
                   aguszanetta8@gmail.com.
-                </Link>{" "}
+                </a>{" "}
                 Estoy listo para aportar valor a tu equipo y llevar los proyectos al siguiente nivel 💪.
               </p>
             </div>

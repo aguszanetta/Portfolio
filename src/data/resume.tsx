@@ -111,14 +111,6 @@ export const DATA = {
         Una vez dentro de la universidad, mientras cursaba los primeros años me di cuenta que el área que mas me gustaba era la programación. \
         Considero que fue una gran etapa en mi vida de la que me llevé aprendizajes, experiencias y amigos."
     },
-    /*{
-      school: "EF SET",
-      href: "https://www.efset.org//",
-      degree: "English Certificate 43/100 (B1 Intermediate)",
-      logoUrl: "/waterloo.png",
-      start: "2024",
-      end: "2024",
-    },*/
     {
       id: 2,
       school: "Udemy",
@@ -190,7 +182,6 @@ export const DATA = {
         },
       ],
       image: "/NimbusSalud.png",
-      //video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Chacabuco Entregas SH",
@@ -217,18 +208,12 @@ export const DATA = {
           href: "https://www.chacabucoentregas.com.ar/",
           icon: <Icons.globe className="size-3" />,
         },
-        /*{
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },*/
       ],
       image: "/ChacabucoEntregas.png",
-      //video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
       title: "Parabrisas 141",
-      href: "https://llm.report",
+      href: "https://parabrisas141.com.ar",
       dates: "Septiembre 2023 - Actualidad",
       active: true,
       description:
@@ -251,18 +236,12 @@ export const DATA = {
           href: "https://parabrisas141.com.ar/",
           icon: <Icons.globe className="size-3" />,
         },
-        /*{
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },*/
       ],
       image: "/Parabrisas141.png",
-      //video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
       title: "Betaglass S.A.",
-      href: "https://automatic.chat",
+      href: "https://betaglass.com.ar",
       dates: "Enero 2022 - Actualidad",
       active: true,
       description:
@@ -290,7 +269,6 @@ export const DATA = {
         },
       ],
       image: "/Betaglass.png",
-      //video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
 } as const;
