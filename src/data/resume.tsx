@@ -13,7 +13,7 @@ export const DATA = {
   summary:
     "Me considero una persona responsable, proactiva y resolutiva, siempre dispuesto a aportar soluciones innovadoras en los proyectos que desarrollo. \
     Disfruto trabajar en equipo, adaptarme a los cambios y aprender en el camino para lograr resultados eficientes y de alto impacto. \
-    Actualmente, estoy en busca de oportunidades como Desarrollador Backend, Frontend, o roles como Analista Funcional / De Sistemas y Tester.",
+    Actualmente, estoy en busca de oportunidades como Desarrollador Backend, Frontend, o roles como Analista Funcional / De Sistemas.",
   avatarUrl: "/Perfil.png",
   skills: [
     "HTML",
@@ -78,9 +78,9 @@ export const DATA = {
       end: "Actualidad",
       description:
         "Desde 2021, junto a dos amigos, trabajo como desarrollador freelance enfocado en la creación de sistemas de gestión web. \
-        En cada proyecto, me encargo de la comunicación con el cliente, elicitación de requerimientos, desarrollo backend y frontend, \
-        diseño de bases de datos, testeo manual, configuración de hosting, y puesta en producción. \
-        También gestionamos el mantenimiento del sistema y la incorporación de nuevas funcionalidades según las necesidades del cliente.",
+        En cada proyecto, me encargo de la comunicación con el cliente, elicitación de requerimientos, diseño de modelos de sistema y diagramas UML, \
+        planificación y seguimiento del proyecto, desarrollo backend y frontend, diseño de bases de datos, testeo manual, configuración de hosting, \
+        puesta en producción y la capacitación a los usuarios sobre el sistema. También gestionamos el mantenimiento del sistema y la incorporación de nuevas funcionalidades según las necesidades del cliente. ",
     },
     {
       company: "Carestino",
@@ -92,9 +92,12 @@ export const DATA = {
       start: "Julio 2023",
       end: "Junio 2024",
       description:
-        "Documentación, gestión y pruebas manuales de requerimientos. Análisis de procesos. \
+        "Documentación, gestión y pruebas manuales de requerimientos. \
+        Diseño de modelos de sistema y diagramas UML. \
+        Definición y ejecución de pruebas funcionales. \
         Participación en el aseguramiento de la calidad de los desarrollos solicitados. \
-        Capacitación a los usuarios sobre el sistema de gestión. Comunicación de releases a los usuarios.",
+        Capacitación a los usuarios sobre el sistema de gestión.\
+        Evaluación y gestión de cambios en los requerimientos.",
     }
   ],
   education: [
@@ -116,7 +119,7 @@ export const DATA = {
       school: "Udemy",
       href: "https://www.udemy.com/",
       degree: "SQL: Creación de Bases de Datos",
-      logoUrl: "/udemy2.png",
+      logoUrl: "/udemy.png",
       start: "2021",
       end: "2021",
       description:
@@ -156,61 +159,6 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Nimbus Salud",
-      href: "https://www.nimbussalud.com.ar/",
-      dates: "Marzo 2021 - Diciembre 2022",
-      active: true,
-      description:
-        "Desarrollé un sistema de gestión para Nimbus Salud, dirigido a asociaciones y círculos médicos, permitiendo la carga de novedades, \
-        gestión de convenios, facturación y liquidación de médicos. \
-        Los profesionales médicos pueden acceder al sistema para consultar esta información de manera segura y organizada.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery",
-        "PHP",
-        "MariaDB",
-        "Bootstrap"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.nimbussalud.com.ar/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/NimbusSalud.png",
-    },
-    {
-      title: "Chacabuco Entregas SH",
-      href: "https://www.chacabucoentregas.com.ar/",
-      dates: "June 2021 - Junio 2022",
-      active: true,
-      description:
-        "Desarrollé un sistema de gestión para Chacabuco Entregas, una empresa dedicada al servicio de entrega de cereales y oleaginosos. \
-        La plataforma permite a la empresa gestionar sus pedidos diarios de forma digital, \
-        reemplazando el sistema anterior basado en archivos de Excel, \
-        lo que mejora la organización y accesibilidad de la información tanto para la empresa como para sus clientes.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery",
-        "PHP",
-        "MariaDB",
-        "Bootstrap"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.chacabucoentregas.com.ar/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/ChacabucoEntregas.png",
-    },
     {
       title: "Parabrisas 141",
       href: "https://parabrisas141.com.ar",
@@ -270,5 +218,84 @@ export const DATA = {
       ],
       image: "/Betaglass.png",
     },
+    {
+      title: "Nimbus Salud App",
+      href: "https://play.google.com/store/apps/details?id=com.mavsoftware.nimbussapp&hl=es_AR&pli=1",
+      dates: "Agosto 2023 - Julio 2024",
+      active: true,
+      description:
+        "Desarrollé una aplicación móvil para Nimbus Salud, diseñada específicamente para médicos pertenecientes a círculos médicos asociados a la plataforma. \
+        La app permite a los médicos consultar de manera rápida y sencilla sus liquidaciones, novedades, y otros detalles importantes, \
+        como importes y fechas de liquidación, con una interfaz optimizada para dispositivos móviles",
+      technologies: [
+        "Expo",
+        "React Native",
+        "PHP",
+        "API REST"
+      ],
+      links: [
+        {
+          type: "App",
+          href: "https://play.google.com/store/apps/details?id=com.mavsoftware.nimbussapp&hl=es_AR&pli=1",
+          icon: <Icons.playstore className="size-3" />,
+        },
+      ],
+      image: "/nov1.png",
+    },
+    {
+      title: "Chacabuco Entregas SH",
+      href: "https://www.chacabucoentregas.com.ar/",
+      dates: "June 2021 - Junio 2022",
+      active: true,
+      description:
+        "Desarrollé un sistema de gestión para Chacabuco Entregas, una empresa dedicada al servicio de entrega de cereales y oleaginosos. \
+        La plataforma permite a la empresa gestionar sus pedidos diarios de forma digital, \
+        reemplazando el sistema anterior basado en archivos de Excel, \
+        lo que mejora la organización y accesibilidad de la información tanto para la empresa como para sus clientes.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "PHP",
+        "MariaDB",
+        "Bootstrap"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.chacabucoentregas.com.ar/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/ChacabucoEntregas.png",
+    },
+    {
+      title: "Nimbus Salud",
+      href: "https://www.nimbussalud.com.ar/",
+      dates: "Marzo 2021 - Diciembre 2022",
+      active: true,
+      description:
+        "Desarrollé un sistema de gestión para Nimbus Salud, dirigido a asociaciones y círculos médicos, permitiendo la carga de novedades, \
+        gestión de convenios, facturación y liquidación de médicos. \
+        Los profesionales médicos pueden acceder al sistema para consultar esta información de manera segura y organizada.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "PHP",
+        "MariaDB",
+        "Bootstrap"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.nimbussalud.com.ar/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/NimbusSalud.png",
+    }
   ],
 } as const;
