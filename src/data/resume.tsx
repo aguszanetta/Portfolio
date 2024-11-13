@@ -245,7 +245,7 @@ export const DATA = {
     {
       title: "Chacabuco Entregas SH",
       href: "https://www.chacabucoentregas.com.ar/",
-      dates: "June 2021 - Junio 2022",
+      dates: "Junio 2021 - Junio 2022",
       active: true,
       description:
         "Desarrollé un sistema de gestión para Chacabuco Entregas, una empresa dedicada al servicio de entrega de cereales y oleaginosos. \
