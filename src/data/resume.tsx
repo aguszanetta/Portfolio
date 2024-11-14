@@ -24,7 +24,7 @@ export const DATA = {
     "Node Js",
     "Express Js",
     "React Native",
-    "MySQL",
+    "SQL",
     "MariaDB",
     "Bootstrap",
     "Socket.io",
